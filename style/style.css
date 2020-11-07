@@ -10,6 +10,7 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 15px;
   line-height: 24px;
+
   color: #272727;
 }
 
@@ -33,6 +34,7 @@ body {
   height: 100px;
   text-transform: uppercase;
   color: #ffffff;
+  margin-bottom: 111px;
 }
 
 .top-menu__list {
@@ -53,8 +55,6 @@ body {
   transition: all 0.5s;
 }
 
-.top-login {
-}
 .top-login__text {
   color: inherit;
   margin-right: 44px;
@@ -64,4 +64,266 @@ body {
   border-radius: 20px;
   background-color: #fff;
   color: #250f8a;
+}
+
+.header-slider__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-slider__text {
+  max-width: 506px;
+  color: #fff;
+}
+
+.header-slider__title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 60px;
+  margin-bottom: 10px;
+}
+
+.header-slider__description {
+  font-size: 24px;
+  line-height: 55px;
+  margin-bottom: 60px;
+}
+
+.header-slider__button {
+  max-width: 200px;
+  padding: 13px 39px;
+  background: #ffca00;
+  border-radius: 25px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  color: #250f8a;
+}
+
+.header-slider__image {
+  margin: 10px 90px 0 0;
+}
+
+.header-dots {
+  position: absolute;
+  right: 0;
+  top: 25%;
+}
+
+.header-dots button {
+  display: block;
+  width: 7px;
+  height: 7px;
+  margin: 10px auto;
+  padding: 0;
+  opacity: 0.5;
+  border: 0;
+  background-color: #ffffff;
+  border-radius: 3.5px;
+  font-size: 0;
+  outline: none;
+}
+
+.header-dots .slick-active button {
+  width: 15px;
+  opacity: 1;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 45px;
+
+  color: #202020;
+}
+
+.specialised {
+  padding: 55px 0 93px;
+
+  background-image: url("../images/specialised-background.svg");
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+.specialised__title {
+  margin-bottom: 96px;
+
+  text-align: center;
+}
+
+.specialised__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.specialised__item {
+  text-align: center;
+  width: 280px;
+  min-height: 280px;
+}
+
+.specialised__item-picture {
+  margin-bottom: 23px;
+}
+
+.specialised__item-title {
+  margin-bottom: 11px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #202020;
+}
+
+.specialised__item-description {
+  padding: 0 10px;
+
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+
+  opacity: 0.7;
+}
+
+.features {
+  padding-top: 64px;
+  background-color: #f4f9fd;
+  background-image: url(../images/features-background.svg);
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.features__item {
+  page-break-after: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 55px;
+}
+
+.features__item-info {
+  padding: 130px 0 0 47px;
+  max-width: 456px;
+  background-image: url(../images/title-img-bg-1.svg);
+  background-repeat: no-repeat;
+  background-position: 25px 75px;
+}
+
+.features__item--bg .features__item-info {
+  background-image: url(../images/title-img-bg-3.svg);
+  background-position: 15px 115px;
+}
+
+.features__item--right {
+  flex-direction: row-reverse;
+}
+
+.features__item--right .features__item-info {
+  padding: 130px 0 0 61px;
+  max-width: 456px;
+  background-image: url(../images/title-img-bg-2.svg);
+  background-position: 40px 140px;
+}
+
+.features__item-title {
+  margin-bottom: 41px;
+}
+
+.features__item-text {
+  opacity: 0.7;
+}
+
+.features__item-text :first-child {
+  margin-bottom: 32px;
+}
+
+.reviews {
+  padding: 38px 0 82px;
+
+  background-image: url(../images/reviews-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: #fff;
+}
+
+.reviews__title {
+  max-width: 384px;
+  margin: 0 auto 48px;
+  text-align: center;
+
+  color: #fff;
+}
+
+.reviews__items {
+  display: flex;
+  padding: 0 114px;
+  justify-content: space-between;
+}
+.reviews__item {
+  width: 300px;
+  padding: 35px 20px;
+
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+.reviews__item-header {
+  display: flex;
+}
+
+.reviews__item-header img {
+  align-items: center;
+  margin-right: 20px;
+
+  border-radius: 50%;
+}
+
+.reviews__item-info {
+}
+.reviews__item-name {
+  font-weight: 600;
+}
+.reviews__item-job {
+  opacity: 0.5;
+}
+.reviews__item-quote {
+  position: relative;
+
+  padding-top: 51px;
+
+  text-align: center;
+}
+
+.reviews__item-quote::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  content: "“";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 61px;
+  margin: 0 30px 0 45px;
+
+  color: #272727;
+}
+.footer__link {
+  display: flex;
+}
+
+.footer__link li + li {
+  margin-left: 30px;
+}
+
+.footer__link a {
+  color: inherit;
+}
+.footer__copy {
 }

@@ -201,6 +201,10 @@ body {
   padding-bottom: 55px;
 }
 
+.features__item img {
+  max-width: 100%;
+}
+
 .features__item-info {
   padding: 130px 0 0 47px;
   max-width: 456px;
@@ -278,8 +282,6 @@ body {
   border-radius: 50%;
 }
 
-.reviews__item-info {
-}
 .reviews__item-name {
   font-weight: 600;
 }
@@ -308,9 +310,9 @@ body {
 .footer-inner {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   height: 61px;
   margin: 0 30px 0 45px;
+  padding: 20px 0 17px;
 
   color: #272727;
 }
@@ -324,6 +326,4 @@ body {
 
 .footer__link a {
   color: inherit;
-}
-.footer__copy {
 }
